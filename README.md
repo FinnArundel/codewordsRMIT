@@ -1,2 +1,2 @@
-# Hi, welcome to code-words 2020
+# Hi code-words 2020
 
