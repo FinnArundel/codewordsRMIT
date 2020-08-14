@@ -13,8 +13,6 @@ var ball = {
   yspeed: -5
 };
 
-var paddleBoard = mouseY;
-
 function setup() {
   createCanvas(1440,800);
     background(0);
