@@ -1,5 +1,4 @@
-# code~words 
-# week 01
+# code~words. week 01
 
 
 After starting the day with initial self-introductions and information 
