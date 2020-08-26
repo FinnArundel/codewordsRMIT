@@ -30,5 +30,4 @@ line (300,100,450,100);
 line (300,250,450,250);
 }
 ```
-
-![](FAInitialSketch.png)
+<img src="FAInitialSketch.png" width="600">
