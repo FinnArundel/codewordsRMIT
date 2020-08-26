@@ -1,4 +1,4 @@
-# Code~Words. Week 01
+# code~words. week 01
 ## Virtual Melbourne 
 After starting the day with initial self-introductions and information about the course and it’s assignments, the whole class met in a virtual version of Melbourne on Minecraft to discuss how reading may be changing in digital space. 
 
