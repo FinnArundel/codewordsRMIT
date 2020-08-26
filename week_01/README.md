@@ -9,25 +9,25 @@ We were also introduced to coding through Processing and given a short introduct
 
 ```javascript 
 function setup() {
-createCanvas (500,500);
-background(0,0,255);
+  createCanvas (500, 500);
+  background(0, 0, 255);
 }
 
+
 function draw() {
-strokeCap(SQUARE); 
-stroke (0);
-strokeWeight (40);
+  strokeCap(SQUARE); 
+  stroke (0);
+  strokeWeight (40);
 
-// drawing the F
-line (50,100,50,400);
-line (50,100,200,100);
-line (50,250,200,250);
 
-// drawing the A
-line (300,100,300,400);
-line (450,100,450,400);
-line (300,100,450,100);
-line (300,250,450,250);
+  line (50, 100, 50, 400);
+  line (50, 100, 200, 100);
+  line (50, 250, 200, 250);
+
+  line (300, 100, 300, 400);
+  line (450, 100, 450, 400);
+  line (300, 100, 450, 100);
+  line (300, 250, 450, 250);
 }
 ```
 <img src="FAInitialSketch.png" width="600">
