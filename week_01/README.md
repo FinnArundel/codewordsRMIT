@@ -31,3 +31,4 @@ line (300,250,450,250);
 }
 ```
 
+![](FAInitialSketch.png)
