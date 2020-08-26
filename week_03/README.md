@@ -1,4 +1,4 @@
-# code~words. Week 03
+# code~words. week 03
 
 This day begun with a discussion about electronic literature, including generative texts and novels such as AI Dungeon which create unique stories based on user input. The work of John Cayley was also discussed which I personally found very interesting, practically the extremely atmospheric windsound.
 http://programmatology.shadoof.net/?wsqt
