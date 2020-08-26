@@ -31,3 +31,5 @@ function draw() {
 }
 ```
 <img src="FAInitialSketch.png" width="600">
+
+[Week 01 seminar slides](https://drive.google.com/drive/folders/1G21z95TwWmkE1V7Sd08cL_Sm7DSOokO3).
