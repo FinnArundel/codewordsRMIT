@@ -1,1 +1,1 @@
-# code~words. weeek 06
+# code~words. week 06
