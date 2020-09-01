@@ -6,4 +6,4 @@ For the major assignment we will research, develop, code and publish a digital v
 
 I chose this text because I find the effects of the internet and mobile technology has had on life very interesting.
 
-<img src="Collage.jpg">
+<img src="Collage2.jpg">
