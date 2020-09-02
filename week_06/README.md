@@ -6,7 +6,7 @@ For the major assignment we will research, develop, code and publish a digital v
 
 I chose this text because I find the effects of the internet and mobile technology has had on life and communication very interesting. This new technology allows individuals to freely and quickly interact, and has created a world in which I am able to talk to someone on the other side of the world instantly. The "compression" of time and space is a result of this.
 
-Out of the text I have chosen the following passage to base ny assignment around:
+Out of the text I have chosen the following passage to base my assignment around:
 > “The decentralization of communication creates new webs of potential interaction between atomized individuals, which on the one hand increases the communication activities carried out, while at the same time fragmenting that communication into more numerous communications of shorter duration.”
 
 I think this passage works well to capture what I find most interesting as well as mentioning the metaphoric "webs of potential inteeraction" which I think I will use in my assignment.
