@@ -9,6 +9,6 @@ I chose this text because I find the effects of the internet and mobile technolo
 Out of the text I have chosen the following passage to base my assignment around:
 > “The decentralization of communication creates new webs of potential interaction between atomized individuals, which on the one hand increases the communication activities carried out, while at the same time fragmenting that communication into more numerous communications of shorter duration.”
 
-I think this passage works well to capture what I find most interesting as well as mentioning the metaphoric "webs of potential inteeraction" which I think I will use in my assignment.
+I think this passage works well to capture what I find most interesting as well as mentioning the metaphoric "webs of potential interaction" which I think I will use in my assignment.
 
 <img src="Phone2.jpg">
