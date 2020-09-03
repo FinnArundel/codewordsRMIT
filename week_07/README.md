@@ -5,4 +5,15 @@ In class in week 6 we went through what a paper prototype is and how we'll be us
 
 <img src="Paper1.jpg">
 
-For the major assignment we have to create
+## Major Assignment Paper Prototype
+My idea for my major assignment is to seperate my text into its individual words and randomise their location on the canvas but have them each connected with a line in order to create a "web" of lines around the canvas. I aim to have these individual words floating around the canvas bouncing off of the walls. This "web" is in reference to the *"new webs of potential interaction between atomized individuals" created in the age of information"*. This visual web of lines also is in reference to the *World Wide Web*, a new technology that has lead to the compression of space and time as mentioned by Nicola Green.
+
+In reference to literature, the layout of the typography challenges our usual way of reading (left to right) and makes us rely on the connecting line to give a  meaning to the words.
+
+<img src="Paper2.jpg">
+
+For the prototype I cut out individual words which I placed randomly on the page, then with pen I connected them in order to create a readable sentence. At the bottom of the canvas I have three buttons that will: go to the previous phrase, pause the animation, and go to the next phrase. The text will be split into smaller phrases because it would be too difficult to read all the words at once. 
+
+<img src="Paper3.jpg">
+
+In these versions I have each word connected to multiple words instead of just one, this the sentence line in bold.
