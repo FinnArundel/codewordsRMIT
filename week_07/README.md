@@ -12,8 +12,6 @@ In reference to literature, the layout of the typography challenges our usual wa
 
 <img src="Paper2.jpg">
 
-For the prototype I cut out individual words which I placed randomly on the page, then with pen I connected them in order to create a readable sentence. At the bottom of the canvas I have three buttons that will: go to the previous phrase, pause the animation, and go to the next phrase. The text will be split into smaller phrases because it would be too difficult to read all the words at once. 
+For the prototype I cut out individual words which I placed randomly on the page, then with pen I connected them in order to create a readable sentence. At the bottom of the canvas I have three buttons that will: go to the previous phrase, pause the animation, and go to the next phrase. The text will be split into smaller phrases because it would be too difficult to read all the words at once. In the second versions I have each word connected to multiple words instead of just one, this the sentence line in bold.
 
 <img src="Paper3.jpg">
-
-In these versions I have each word connected to multiple words instead of just one, this the sentence line in bold.
