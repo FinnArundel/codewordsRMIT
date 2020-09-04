@@ -39,3 +39,12 @@ WHILE hash-brown in pan
 
 ENDIF 
 ```
+For my main assignment I have also written some basic pseudocode.
+
+```
+major 
+  project
+  
+pseudocode
+
+```
