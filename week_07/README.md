@@ -8,7 +8,7 @@ In class in week 6 we went through what a paper prototype is and how we'll be us
 ## Major Assignment Paper Prototype
 My idea for my major assignment is to seperate my text into its individual words and randomise their location on the canvas but have them each connected with a line in order to create a "web" of lines around the canvas. I aim to have these individual words floating around the canvas bouncing off of the walls. This "web" is in reference to the *"new webs of potential interaction between atomized individuals" created in the age of information"*. This visual web of lines also is in reference to the *World Wide Web*, a new technology that has lead to the compression of space and time as mentioned by Nicola Green.
 
-In reference to literature, the layout of the typography challenges our usual way of reading (left to right) and makes us rely on the connecting line to give a  meaning to the words.
+In reference to literature, the layout of the typography challenges our usual way of reading (left to right) and makes us rely on the connecting line to give a  meaning to the words. I intend to have a feature that will allow the user to click and drag the words around the canvas to form their own webs.
 
 <img src="Paper2.jpg">
 
@@ -49,6 +49,9 @@ CONNECT words in sentence order
 
 WHILE word inside canvas
   move around
+  
+IF word hits wall or ceiling
+  THEN bounce word back
  
 IF word is dragged
   THEN move around word depending of mouse X and Y
