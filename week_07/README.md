@@ -50,6 +50,9 @@ CONNECT words in sentence order
 WHILE word inside canvas
   move around
  
+IF word is dragged
+  THEN move around word depending of mouse X and Y
+ 
 FUNCTION pause
   IF pause button pressed
   THEN pause animation
