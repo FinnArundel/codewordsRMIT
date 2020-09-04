@@ -42,9 +42,15 @@ ENDIF 
 For my main assignment I have also written some basic pseudocode.
 
 ```
-major 
-  project
-  
-pseudocode
+FUNCTION pause
+  IF pause button pressed
+  THEN pause animation
 
+FUNCTION next
+  IF next button is pressed
+  THEN display next sentence
+  
+FUNCTION previous
+  IF previous button is pressed
+  THEN display previous sentence
 ```
