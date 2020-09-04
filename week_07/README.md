@@ -42,6 +42,14 @@ ENDIF 
 For my main assignment I have also written some basic pseudocode.
 
 ```
+START
+
+DISPLAY words randomly on canvas
+CONNECT words in sentence order
+
+WHILE word inside canvas
+  move around
+ 
 FUNCTION pause
   IF pause button pressed
   THEN pause animation
