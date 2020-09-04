@@ -15,3 +15,27 @@ In reference to literature, the layout of the typography challenges our usual wa
 For the prototype I cut out individual words which I placed randomly on the page, then with pen I connected them in order to create a readable sentence. At the bottom of the canvas I have three buttons that will: go to the previous phrase, pause the animation, and go to the next phrase. The text will be split into smaller phrases because it would be too difficult to read all the words at once. In the second versions I have each word connected to multiple words instead of just one, this the sentence line in bold.
 
 <img src="Paper3.jpg">
+
+## Pseudocode
+In the second half of the class in week 6 we learnt about pseudocode and how we will use it for our major project. Pseudocode is an informal high-level description of a computer program or algorithm. It is written in symbolic code which must be translated into a programming language before it can be executed. Using this method we were made to describe an activity we might do everyday, I wrote instuctions on how to cook a hashbrown.
+
+``` 
+START
+IF burner is off
+  THEN turn burner on and place pan on burner
+
+IF pan is hot
+  THEN pour oil in pan
+
+IF oil is hot
+  THEN place hash-brown in pan
+
+WHILE hash-brown in pan
+  CHECK if underneath is cooked
+  FLIP
+
+WHILE hash-brown in pan
+  CHECK if top is cooked
+
+ENDIF 
+```
