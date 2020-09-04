@@ -44,6 +44,8 @@ For my main assignment I have also written some basic pseudocode.
 ```
 START
 
+PLAY music
+
 DISPLAY words randomly on canvas
 CONNECT words in sentence order
 
@@ -54,6 +56,7 @@ IF word hits wall or ceiling
   THEN bounce word back
  
 IF word is dragged
+  THEN play sound
   THEN move around word depending of mouse X and Y
  
 FUNCTION pause
@@ -67,4 +70,6 @@ FUNCTION next
 FUNCTION previous
   IF previous button is pressed
   THEN display previous sentence
+  
+ENDIF
 ```
