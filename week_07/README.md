@@ -18,7 +18,7 @@ For the prototype I cut out individual words which I placed randomly on the page
 
 <img src="Paper3.jpg">
 
-Following a similar idea this version connects the words through a lined web. This version however will remain static with each word placed along the perimeter of a square. For this each word cannot be placed next to the next or previous word in the sentence or else the line will not be visiable. It would also include the buttons of the previous prototypes.
+Following a similar idea, this version connects the words through a lined web. This version however will remain static with each word placed along the perimeter of a square. For this each word cannot be placed next to the next or previous word in the sentence or else the line will not be visiable. It would also include the buttons of the previous prototypes. The words would either load one at a time accompanied by a sound or all at once. In order to incorporate a 3D aspect to this version the words once loaded in the square shape could randomise their locations of the z axis, then would rotate around revealing the space between words.
 
 <img src="Square_Web.jpg">
 
