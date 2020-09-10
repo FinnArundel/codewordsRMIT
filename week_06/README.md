@@ -17,3 +17,4 @@ Out of the text I have chosen the following passage to base my assignment around
 
 I think this passage works well to capture what I find most interesting as well as mentioning the metaphoric "webs of potential interaction" which I think I will use in my assignment.
 
+<img src="Sine.gif">
