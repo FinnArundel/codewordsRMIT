@@ -20,18 +20,7 @@ function draw() {
   noStroke();
   noFill();
   translate (width/2, height/2);
-  ellipse (x1, y1, 5);
-  ellipse (x2, y2, 5);
 
   stroke (255);
   line (x1, y1, x2, y2);
-}
-
-
-function keyPressed () {
-  noLoop(); 
-  } 
- 
-function keyReleased (){
-    loop();
 }
