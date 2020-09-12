@@ -13,10 +13,12 @@ In reference to literature, the layout of the typography challenges our usual wa
 To make it a bit more interesting and challenging I also have the idea to place them in a 3D space and rotate around the words. In this version they would not move.
 
 <img src="Paper2.jpg">
+<img src="Prototype.gif">
 
 For the prototype I cut out individual words which I placed randomly on the page, then with pen I connected them in order to create a readable sentence. At the bottom of the canvas I have three buttons that will: go to the previous phrase, pause the animation, and go to the next phrase. The text will be split into smaller phrases because it would be too difficult to read all the words at once. In the second versions I have each word connected to multiple words instead of just one, this the sentence line in bold.
 
 <img src="Paper3.jpg">
+
 
 Following a similar idea, this version connects the words through a lined web. This version however will remain static with each word placed along the perimeter of a square. For this each word cannot be placed next to the next or previous word in the sentence or else the line will not be visiable. It would also include the buttons of the previous prototypes. The words would either load one at a time accompanied by a sound or all at once. In order to incorporate a 3D aspect to this version the words once loaded in the square shape could randomise their locations of the z axis, then would rotate around revealing the space between words.
 
