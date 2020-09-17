@@ -81,3 +81,6 @@ FUNCTION previous
   
 ENDIF
 ```
+<img src="code_slide.jpeg">
+
+Here's a more refined pseudo code. I've come up with another idea to add a slider which compresses or expands the words outwards, this connects with the texts main theme of the compression of time and space.
