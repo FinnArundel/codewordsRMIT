@@ -83,4 +83,4 @@ ENDIF
 ```
 <img src="code2_slide.png">
 
-Here's a more refined pseudo code. I've come up with another idea to add a slider which compresses or expands the words outwards, this connects with the texts main theme of the compression of time and space.
+Here's a more refined pseudo code. I've come up with another idea to add a slider which compresses or expands the words outwards, this connects with the texts main theme of the compression of time and space. This concept is more interactive, with the camera being controlled through the mouse.
