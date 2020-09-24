@@ -45,7 +45,7 @@ class NodePoint {
       
       textAlign (CENTER);
       textFont (helvetica);
-      textSize (16);
+      textSize (18);
       noStroke();
       text(words[count], this.x, this.y);
     }
