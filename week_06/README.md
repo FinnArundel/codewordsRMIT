@@ -17,7 +17,7 @@ Out of the text I have chosen the following passage to base my assignment around
 
 I think this passage works well to capture what I find most interesting as well as mentioning the metaphoric "webs of potential interaction" which I think I will use in my assignment.
 
-# Experimenting with sin waves
+# Experimenting with sine waves
 After Karen showed us how to use sine waves in class, I made this after being inspired by this [video](https://www.youtube.com/watch?v=LaarVR1AOvs&list=LLYidLCp9CKTWbc-1Kaf_s_Q&index=20&t=813s). The animation works by connecting a different points of sine waves together with a line, while loading a black background each draw function with a small amount of alpha to get the fade effect. You can view it in full [here](https://finnarundel.github.io/codewordsRMIT/week_06/sine_waves/).
 
 <img src="Sine.gif">
