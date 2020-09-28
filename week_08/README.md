@@ -2,7 +2,7 @@
 
 Lots of coding this week trying to work towards the major assignment. I experimented with different methods and libraries I might need in order to accomplish my idea. 
 
-``
+```
 IMPORT text and music
 SPLIT into individual words
 
@@ -10,7 +10,10 @@ START 3D SPACE
 
 PLAY music
 
-DISPLAY words randomly on canvas (X,Y and Z)
+IF word = first word
+  THEN colour red
+
+DISPLAY words randomly on canvas (X,Y and Z) 
 PLAY sound when each word is displayed
 CONNECT words with line in sentence order
 
@@ -37,4 +40,4 @@ SLIDER time & space
   THEN increase range 
   
 ENDIF
-``
+```
