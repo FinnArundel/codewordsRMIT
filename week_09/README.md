@@ -93,3 +93,38 @@ if (count == 0) {
 }
 ```
 
+## Overlap 
+In testing the code I discovered the issue that sometimes the words generate too close together, making the sentence illegible. To fix this I wanted to create a feature that would only generate the words to the screen if there was enough distance between the words. This [tutorial](https://www.youtube.com/watch?v=XATr_jdh-44) was helpful in learning the dist() function which I needed to figure out the distance between the nodes. This [sketch](https://www.openprocessing.org/sketch/28023) was helpful I figuring out a way in which one word could communicate to all the other words. This [tutorial](https://www.youtube.com/watch?v=lm8Y8TD4CTM&t=206s) was helpful in figuring out a way I could reset the sketch if there was an overlap. Ultimately combining all these different elements, I wrote this.
+
+``` javascript
+let overlapping = false; 
+
+for ( let i = 0; i < node.length; i++) {
+  for (j=0; j < node.length; j++) {
+    if (j != i) { // j equals every other node apart from the current i
+      let d = dist(node[i].x, node[i].y, node[j].x, node[j].y);
+      if (d < 50) {
+        overlapping = true;
+      }
+    }
+  }
+}
+
+if (overlapping == false) { // makes it so nothing generates when overlapping == true
+  for ( let i = 0; i < node.length; i++) {
+    node[i].show(i); 
+    stroke (255);
+    line (node[i].x, node[i].y, node[i + 1].x, node[i + 1].y); 
+    node[i].show(i); 
+  }
+} else {
+  resetSketch();
+}
+}
+
+function resetSketch () { // if overlap = true then reset function runs
+for ( let i = 0; i < words.length; i++) {
+  node[i] = new NodePoint (random(50, width-50), random (50, height-50));
+}
+}
+```
