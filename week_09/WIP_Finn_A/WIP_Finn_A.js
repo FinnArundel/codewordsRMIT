@@ -22,10 +22,35 @@ function setup() {
 
 function draw() {
   background (0);
+
+  let overlapping = false; // overlapping feature by Daniel Shiffman https://www.youtube.com/watch?v=XATr_jdh-44
+
   for ( let i = 0; i < node.length; i++) {
-    node[i].show(i); // uses draw counter as arguement for class
-    stroke (250);
-    line (node[i].x, node[i].y, node[i + 1].x, node[i + 1].y); // connects the words in sentence order
+    for (j=0; j < node.length; j++) {
+      if (j != i) { // j equals every other node apart from the current i
+        let d = dist(node[i].x, node[i].y, node[j].x, node[j].y);
+        if (d < 50) {
+          overlapping = true;
+        }
+      }
+    }
+  }
+
+  if (overlapping == false) { // makes it so nothing generates when overlapping == true
+    for ( let i = 0; i < node.length; i++) {
+      node[i].show(i); // uses draw  counter as arguement for class
+      stroke (255);
+      line (node[i].x, node[i].y, node[i + 1].x, node[i + 1].y); // connects the words in sentence order
+      node[i].show(i); // uses draw  counter as arguement for class
+    }
+  } else {
+    resetSketch();
+  }
+}
+
+function resetSketch () { //https://www.youtube.com/watch?v=lm8Y8TD4CTM
+  for ( let i = 0; i < words.length; i++) {
+    node[i] = new NodePoint (random(50, width-50), random (50, height-50));
   }
 }
 
