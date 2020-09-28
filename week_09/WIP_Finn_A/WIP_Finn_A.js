@@ -29,7 +29,7 @@ function draw() {
     for (j=0; j < node.length; j++) {
       if (j != i) { // j equals every other node apart from the current i
         let d = dist(node[i].x, node[i].y, node[j].x, node[j].y);
-        if (d < 150) {
+        if (d < 50) {
           overlapping = true;
         }
       }
