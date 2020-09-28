@@ -1,3 +1,3 @@
 # code~words. week 09.
 
-In class with week we seperated outselves into groups and had time to work on our assignments.
+In class with week we seperated outselves into groups and had time to work on our assignments. At the start of the class I had a sketch 
