@@ -19,7 +19,8 @@ function setup() {
 
 function draw() {
   background (0);
-
+  fill (255);
+  text (frameCount, 25,25);
   let overlapping = false; // overlapping feature by Daniel Shiffman https://www.youtube.com/watch?v=XATr_jdh-44
 
   for ( let i = 0; i < node.length; i++) {
