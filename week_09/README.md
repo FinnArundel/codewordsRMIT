@@ -131,6 +131,6 @@ for ( let i = 0; i < words.length; i++) {
 ## End of day / Issues
 At the end of the day I had the [sketch below](https://finnarundel.github.io/codewordsRMIT/week_09/week_09_end_sketch/). One problem I've encountered with this version is that the line () function stop the frameCount. I've played around a bit by puting this function in the class itself, however this doesn't solve the problem. I need frameCount in the future when I add animation, buttons and sliders for interactivity. 
 
-Goals for the following week is to accept to fix this problem and start to bring this sketch into a 3D enviroment in WEBGL, as well as randomising the positions of the words more naturally with perlin noise.
+Goals for the following week is to attempt to fix this problem and start to bring this sketch into a 3D enviroment in WEBGL, as well as randomising the positions of the words more naturally with perlin noise.
 
 <img src="week_09_end.gif">
