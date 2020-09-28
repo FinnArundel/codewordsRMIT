@@ -52,3 +52,5 @@ For the 3d element of the assignment I have been experimenting with WEBGL, which
 <img src="WEBGL_01.gif">
 <img src="WEBGL_02.gif">
 <img src="WEBGL_03.gif">
+
+[First sketch.](https://finnarundel.github.io/codewordsRMIT/week_08/sketch_3d_test/) [Second sketch.](https://finnarundel.github.io/codewordsRMIT/week_08/sketch_3d_test_3/) [Third sketch.](https://finnarundel.github.io/codewordsRMIT/week_08/sketch_3d_test_2/)
