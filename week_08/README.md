@@ -45,6 +45,8 @@ SLIDER time & space
   
 ENDIF
 ```
-For the 3d element of the assignment I have been experimenting with WEBGL, which is an inbuilt library in p5.js. This add the possibility to use a Z axis in the sketch.
+For the 3d element of the assignment I have been experimenting with WEBGL, which is an inbuilt library in p5.js. This add the possibility to use a Z axis in the sketch. 
 
-<img src="WEBGL_2.gif">
+<img src="WEBGL_01.gif">
+<img src="WEBGL_02.gif">
+<img src="WEBGL_03.gif">
