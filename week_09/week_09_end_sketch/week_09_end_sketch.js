@@ -3,7 +3,7 @@
 
 let node = [];
 let sentence = "the decentralisation of communication creates new webs of potential interaction between atomized individuals";
-
+let helvetica;
 let words = sentence.split(" ");
 
 function preload () {
