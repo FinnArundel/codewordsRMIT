@@ -35,14 +35,13 @@ function draw() {
   }
 
   if (overlapping == false) { // makes it so nothing generates when overlapping == true
-    for ( let i = 0; i <node.length; i++) {
+     for ( let i = 0; i < node.length; i++) {
       node[i].show(i); // uses draw  counter as arguement for class
-      stroke (255);
-      // this next line is causing an error... because at the end of the list there can be no node[i+1].x ! (you have run out of points)
-      // if you want the text to 'keep looping back to the start, you would need to make it join back up with node[0].x
-      // so test for second-to-last node maybe like    if(i==node.length){act slightly differently;}
+    }
+    for ( let i = 0; i < node.length - 1; i++) {
+      stroke (250);
+      strokeWeight (1);
       line (node[i].x, node[i].y, node[i + 1].x, node[i + 1].y); // connects the words in sentence order
-      node[i].show(i); // uses draw  counter as arguement for class
     }
   } else {
     resetSketch();
