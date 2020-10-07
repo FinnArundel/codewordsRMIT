@@ -7,7 +7,6 @@ let helvetica;
 let words = sentence.split(" ");
 
 let sound;
-let song;
 let time = 15;
 let size = 250;
 
@@ -22,7 +21,6 @@ let cam;
 function preload () {
   helvetica = loadFont('data/helveticaneue.otf');
   sound = loadSound ('data/beepbeep.mp3');
-  song = loadSound ('data/loop.wav');
 }
 
 function setup() {
