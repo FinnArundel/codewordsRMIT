@@ -2,7 +2,6 @@ let matchbox;
 let matchImage;
 
 function preload() {
-  poster = loadImage ('data/poster.jpg');
   matchImage = loadImage ('data/box.texture.png');
   matchbox = loadModel ('data/matchbox.obj');
 }
