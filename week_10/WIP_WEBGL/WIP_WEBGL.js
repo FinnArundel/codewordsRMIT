@@ -8,7 +8,7 @@ let words = sentence.split(" ");
 
 let sound;
 //let song;
-let time = 15;
+let time = 75;
 let size = 250;
 
 let slider;
