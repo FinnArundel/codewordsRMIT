@@ -7,6 +7,7 @@ Matchbox
 
 <img src="matchbox_present2.gif">
 <img src="gallery_tour.gif">
+<img src="poster_vid.gif">
 
 
 
