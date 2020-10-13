@@ -41,4 +41,5 @@ translate (this.x, this.y, this.z);
 text(words[count], 0, 0);
 pop();
 ```
+<img src="WEBGL_sketch.gif">
 
