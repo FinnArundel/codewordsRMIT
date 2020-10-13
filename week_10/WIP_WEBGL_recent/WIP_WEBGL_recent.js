@@ -36,7 +36,7 @@ function draw() {
     wdt = random (-size, size);
     hgt = random (-size, size);
     z = random (-size, size);
-    node.push (new NodePoint (wdt, hgt, z, timeSlider.value()));
+    node.push (new NodePoint (wdt, hgt, z, 30);
   }
 
   node[0].connect();
