@@ -8,3 +8,33 @@ For the assignment I created a matchbox, a virtual gallery and a poster I create
 <img src="matchbox_present2.gif">
 <img src="gallery_tour.gif">
 <img src="poster_vid.gif">
+
+## Major Assignment
+At the end of last week I had a working 2D sketch which randomised positions of words and connected these words in sentence order. This week I planned to add timing and sounds to the sketch as well as make it 3D. Using a if function in my for loops I was able to time the generation of the node points in relation to the frameCount, like so:
+
+``` javascript
+
+for ( let i = 0; i < words.length; i++) {  
+  if (frameCount > 50 * i + 50) {
+    node[i].show(i); 
+  }
+}
+
+```
+I could then easily add in a sound to play whenever it equals the same period of time:
+
+``` javascript
+for (let i = 0; i < words.length; i++) {
+    if (frameCount === this.time * i + this.time) {
+  sound.play();
+  }
+}
+```
+Creating a 3D enviroment instead of the 3D space I had was actually quite simple. Using WEBGL, all I had to change was how I choose the location of the words. Creating a this.z variable allowed me to use the translate function to position the text in the 3D enviroment, I learnt this by working on my posters for Prof Prac.
+
+``` javascript
+push();
+translate (this.x, this.y, this.z);
+text(words[count], 0, 0);
+pop();
+```
