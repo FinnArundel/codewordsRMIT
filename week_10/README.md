@@ -6,6 +6,8 @@ In my Communication Design Professional Pratice class one of our assignments was
 Matchbox
 
 <img src="matchbox_present2.gif">
+<img src="gallery_tour.gif">
+<img src="coloured_prac_posters.gif" width="200"> <img src="prac_posters.gif" width="200">
 
 
 Virtual Gallery
