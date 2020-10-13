@@ -31,6 +31,7 @@ for (let i = 0; i < words.length; i++) {
 }
 ```
 [Timed sketch](https://finnarundel.github.io/codewordsRMIT/week_10/timing_sound_wip/)
+<img src="timed.gif">
 
 Creating a 3D enviroment instead of the 3D space I had was actually quite simple. Using WEBGL, all I had to change was how I choose the location of the words. Creating a this.z variable allowed me to use the translate function to position the text in the 3D enviroment, I learnt this by working on my posters for Prof Prac.
 
@@ -40,3 +41,4 @@ translate (this.x, this.y, this.z);
 text(words[count], 0, 0);
 pop();
 ```
+
