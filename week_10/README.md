@@ -5,6 +5,9 @@ In my Communication Design Professional Pratice class one of our assignments was
 
 Matchbox
 
+<img scr="matchbox_present2.gif">
+
+
 Virtual Gallery
 
 Posters
