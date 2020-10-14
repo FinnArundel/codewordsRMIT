@@ -1,13 +1,15 @@
 class NodePoint {
   constructor (x, y, z, time) {
-    this.x = x;
-    this.y = y;
-    this.z = z;
+    this.x = x * spaceSlider.value();
+    this.y = y * spaceSlider.value();
+    this.z = z * spaceSlider.value();
+    this.initialX = x;
+    this.initialY = y;
+    this.initialZ = z;
     this.time = time;
   }
 
   connect () {
-
     for ( let i = 1; i < words.length; i++) {
       if (frameCount  > this.time * i + this.time) {
         stroke (255);
@@ -49,11 +51,9 @@ class NodePoint {
     }
   }
 
-
   scale () {
-    val = spaceSlider.value();
-        this.x *= val;
-        this.y *= val;
-        this.z *= val;   
+      this.x = this.initialX * spaceSlider.value(); 
+      this.y = this.initialY * spaceSlider.value();
+      this.z = this.initialZ * spaceSlider.value(); 
   }
 }

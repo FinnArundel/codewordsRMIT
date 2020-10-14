@@ -16,13 +16,8 @@ let sound;
 let helvetica;
 
 let time;
-let reload;
-let size = 225;
 let spaceSlider;
 let timeSlider;
-let val;
-let prev;
-let next;
 
 function preload () {
   helvetica = loadFont('data/helveticaneue.otf');
@@ -41,33 +36,59 @@ function setup() {
     return false;
   };
 
-  timeSlider = createSlider(0, 100, 50);
-  timeSlider.position(width/2 - 350, height - 25);
-  timeSlider.style('width', '250px');
-  timeSlider.attribute('title','time');
-  
-  
 
-  spaceSlider = createSlider(0.05, 1.2, 1, 0);
+if (width > 710){
+  timeSlider = createSlider(0, 100, 50);
+  timeSlider.position(width/2 - 350, height -25);
+  timeSlider.style('width', '250');
+  timeSlider.attribute('title', 'time');
+  timeSlider.mouseReleased(resetSketch);
+
+  spaceSlider = createSlider(0, 2, 1, 0);
   spaceSlider.position(width/2 - 80, height - 25);
-  spaceSlider.style('width', '250px');
-  spaceSlider.attribute('title','space');
+  spaceSlider.style('width', '250');
+  spaceSlider.attribute('title', 'space');
   spaceSlider.input(spaceSliderChange);
 
-  reload = createButton('reload');
+  let reload = createButton('reload');
   reload.position(width/2+190, height - 25);
   reload.mousePressed(resetSketch);
 
-  prev = createButton('prev');
+  let prev = createButton('prev');
   prev.position(width/2+256, height - 25);
+  prev.mousePressed(prevSentence);  
+
+  let next = createButton('next');
+  next.position(width/2+310, height - 25);
+  next.mousePressed(nextSentence);
+} else {
+    timeSlider = createSlider(0, 100, 50);
+  timeSlider.position(width/2-150, height-70);
+  timeSlider.style('width', '300');
+  timeSlider.attribute('title', 'time');
+  timeSlider.mouseReleased(resetSketch);
+  timeSlider.touchEnded(resetSketch);
+  
+  spaceSlider = createSlider(0, 2, 1, 0);
+  spaceSlider.position(width/2-150, height-50);
+  spaceSlider.style('width', '300');
+  spaceSlider.input(spaceSliderChange);
+
+  reload = createButton('reload');
+  reload.position(width/2-81, height - 27);
+  reload.mousePressed(resetSketch);
+
+  prev = createButton('prev');
+  prev.position(width/2 -20, height - 27);
   prev.mousePressed(prevSentence);
 
   next = createButton('next');
-  next.position(width/2+310, height - 25);
+  next.position(width/2 + 30, height-27);
   next.mousePressed(nextSentence);
-
+}
 
   for ( let i = 0; i < words.length; i++) {
+    let size = height/4;
     wdt = int(random(-size, size ));
     hgt = int (random (-size, size ));
     z = int (random (-size, size ));
@@ -79,26 +100,22 @@ function setup() {
 
 function draw() {
   background (0);
+
   let spin = radians(frameCount) *0.1;
   rotateY (-spin);
-  
-  if (mouseIsPressed === true){
-  cursor('NONE');
-  }else {
-  cursor('grab');  
+
+  if (mouseIsPressed === true) {
+    cursor('NONE');
+  } else {
+    cursor('grab');
   }
- 
-  print (node.length);
-  
-  words = sentences[index].split(" ");
 
   node[0].connect();
   node[0].sound();
 
-  for ( let i = 0; i < words.length; i++) {  
+  for (let i = 0; i < words.length; i++) {  
     if (frameCount > node[i].time * i + node[i].time) {
       node[i].show(i); // uses draw  counter as arguement for class
-
     }
   }
 }
@@ -106,13 +123,14 @@ function draw() {
 function resetSketch () {
   node = [];
   words = sentences[index].split(" ");
-  
+
   frameCount = 0;
 
   for ( let i = 0; i < words.length; i++) {
-    wdt = random(-size, size);
-    hgt = random (-size, size);
-    z = random (-size, size);
+    let size = height/4;
+    wdt = int(random(-size, size));
+    hgt = int(random (-size, size));
+    z = int(random (-size, size));
     node[i] = new NodePoint (wdt, hgt, z, timeSlider.value());
   }
 }
@@ -131,8 +149,8 @@ function prevSentence () {
   }
 }
 
-function spaceSliderChange(){
-for ( let i = 0; i < words.length; i++) {  
- node[i].scale(); //this will call the scale() part of your class, which is where you apply the multiplier (once)
-}
+function spaceSliderChange() {
+  for ( let i = 0; i < words.length; i++) {  
+    node[i].scale(); //this will call the scale() part of your class, which is where you apply the multiplier (once)
+  }
 }
