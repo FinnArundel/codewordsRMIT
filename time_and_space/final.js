@@ -1,5 +1,6 @@
 // code by finn arundel
 // code~words rmit
+// thanks to Karen Ann Donnachie and Daniel Shiffman for the  k n o w l e d g e
 
 let node = [];
 let sentence0 = "the decentralization of communication creates new webs of potential interaction between atomized individuals"; // 13
