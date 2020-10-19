@@ -1,1 +1,45 @@
 # code~words week 11
+## Interation
+For my work I wanted to add some controls for interation. From my paper prototype I wanted to add buttons to cycle through the different sentences, a reload button, and a slider to change the distance of the node points from the centre. I later decided to add a slider which will dictate the speed of the node's generation.
+
+## Buttons
+For the buttons I had to create a function which would delete and create new node points. After some help from Karen (thank you), I created a function that achieved this. It works by 'flushing' the node and words variables, which will allow a new sentence to be displayed.
+``` javascript
+
+
+function resetSketch () {
+  node = [];
+  words = sentences[index].split(" ");
+
+  frameCount = 0;
+
+  for ( let i = 0; i < words.length; i++) {
+    let size = height/4;
+    wdt = int(random(-size, size));
+    hgt = int(random (-size, size));
+    z = int(random (-size, size));
+    node[i] = new NodePoint (wdt, hgt, z, timeSlider.value());
+  }
+}
+```
+For the 'next' and 'prev' buttons, I had to create a new function which would increase the value of a variable which would in turn move through the different sentences. I achieved this through the code below. I then added two DOM element buttons, which ran the functions when pressed.
+
+``` javascript
+let sentence0 = "the decentralization of communication creates new webs of potential interaction between atomized individuals"; 
+let sentence1 = "which on the one hand increases the communication activities carried out";
+let sentence2 = "while at the same time fragmenting that communication into more numerous communications of shorter duration"; 
+let sentence3 = "time and space both become abstractions and cease to have meaning or value in themselves";
+let sentences = [sentence0, sentence1, sentence2, sentence3];
+
+let index = 0;
+let words = sentences[0].split(" ");
+
+function nextSentence () {
+  if (index < 3) {
+    index ++;
+    resetSketch();
+  }
+}
+```
+## Sliders
+Surprisingly the sliders were actually the most challenging part of the whole work.
