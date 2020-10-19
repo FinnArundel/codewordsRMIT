@@ -51,6 +51,8 @@ timeSlider.mouseReleased(resetSketch);
   
 node[i] = new NodePoint (wdt, hgt, z, timeSlider.value());
 ```
+<img src="not_working.gif">
+
 The slider to adjust the location of the words was more difficult, but ended up having a pretty simple solution. In previous attempts to get this slider working I had the slider value (between 0 and 3) divide from this.x, this.y, and this.z. Doing it this way caused the coordinates to exponentially decrease or increase in size until the number be too large or too small to work. To fix this I saved the initial coordinates in the class' constructor with this.initialX = x, etc, and created another function inside the class to scale the points. This way, this.x doesn't multiple with itself.
 ``` javascript
 scale () {
@@ -59,4 +61,5 @@ scale () {
   this.z = this.initialZ * spaceSlider.value(); 
   }
 ```
+<img src="working.gif">
 
