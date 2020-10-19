@@ -44,12 +44,19 @@ function nextSentence () {
 ## Sliders
 Surprisingly the sliders were actually the most challenging part of the whole work. The slider that adjucted the timing was slightly easier. I created a variable inside the class constructor (this.time) that took the slider's value, and moved most of the timed elements of the sketch inside the class itself. This allowed the slider to work only when the nodes are first created rather than constantly updating, revealing and concealing words when moved. I also made it so when the slider is released the resetSketch function plays, so theres an immediate reaction to your use of the slider.
 ``` javascript
-  timeSlider = createSlider(0, 100, 50);
-  timeSlider.position(width/2 - 350, height -25);
-  timeSlider.style('width', '250');
-  timeSlider.mouseReleased(resetSketch);
+timeSlider = createSlider(0, 100, 50);
+timeSlider.position(width/2 - 350, height -25);
+timeSlider.style('width', '250');
+timeSlider.mouseReleased(resetSketch);
   
-  node[i] = new NodePoint (wdt, hgt, z, timeSlider.value());
+node[i] = new NodePoint (wdt, hgt, z, timeSlider.value());
 ```
-
+The slider to adjust the location of the words was more difficult, but ended up having a pretty simple solution. In previous attempts to get this slider working I had the slider value (between 0 and 3) divide from this.x, this.y, and this.z. Doing it this way caused the coordinates to exponentially decrease or increase in size until the number be too large or too small to work. To fix this I saved the initial coordinates in the class' constructor with this.initialX = x, etc, and created another function inside the class to scale the points. This way, this.x doesn't multiple with itself.
+``` javascript
+scale () {
+  this.x = this.initialX * spaceSlider.value(); 
+  this.y = this.initialY * spaceSlider.value();
+  this.z = this.initialZ * spaceSlider.value(); 
+  }
+```
 
