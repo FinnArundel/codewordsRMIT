@@ -16,4 +16,5 @@ Returning to our first assignment, we were tasked to reinterpret a portion of th
 
 Link to [modular typography slides](https://docs.google.com/presentation/d/1N2hAFp6si7UsVuPj1oMQ21_HHF858NbXZna0YQxOQio/edit#slide=id.p).
 
+[Home Page](https://finnarundel.github.io/codewordsRMIT/)
 [Next Week](https://finnarundel.github.io/codewordsRMIT/week_03/)
