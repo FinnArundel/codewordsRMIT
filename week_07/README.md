@@ -84,3 +84,7 @@ ENDIF
 <img src="code2_slide.png">
 
 Here's a more refined pseudo code. I've come up with another idea to add a slider which compresses or expands the words outwards, this connects with the texts main theme of the compression of time and space. This concept is more interactive, with the camera being controlled through the mouse. [Google Slides](https://docs.google.com/presentation/d/1dX_ZDAdoo_U-JSXTtUxhwClVBWJZjEu7X48fx6t4-Zc/edit#slide=id.g980079f83c_1_0)
+
+[Home Page](https://finnarundel.github.io/codewordsRMIT/)
+
+[Next Week](https://finnarundel.github.io/codewordsRMIT/week_08/)
