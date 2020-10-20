@@ -1,3 +1,6 @@
+<img src="homepage.gif'>
+
+
 [week 01 - Introductions](https://finnarundel.github.io/codewordsRMIT/week_01/)
 
 [week 02 - Modular Typography](https://finnarundel.github.io/codewordsRMIT/week_02/)
