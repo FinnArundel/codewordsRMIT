@@ -16,7 +16,7 @@
 
 [week 09 - It's Coding Time](https://finnarundel.github.io/codewordsRMIT/week_09/)
 
-[week 10 - Profeessional Practice](https://finnarundel.github.io/codewordsRMIT/week_10/)
+[week 10 - Professional Practice](https://finnarundel.github.io/codewordsRMIT/week_10/)
 
 [week 11 - It's Coding Time, The Sequel](https://finnarundel.github.io/codewordsRMIT/week_11/)
 
