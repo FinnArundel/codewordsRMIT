@@ -1,5 +1,4 @@
-<img src="homepage.gif'>
-
+<img src="homepage.gif">
 
 [week 01 - Introductions](https://finnarundel.github.io/codewordsRMIT/week_01/)
 
