@@ -15,3 +15,5 @@ Returning to our first assignment, we were tasked to reinterpret a portion of th
 <img src="SecondLifeShot.png"> 
 
 Link to [modular typography slides](https://docs.google.com/presentation/d/1N2hAFp6si7UsVuPj1oMQ21_HHF858NbXZna0YQxOQio/edit#slide=id.p).
+
+[Next Week](https://finnarundel.github.io/codewordsRMIT/week_03/)
