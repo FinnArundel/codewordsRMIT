@@ -18,4 +18,4 @@ Link to [modular typography slides](https://docs.google.com/presentation/d/1N2hA
 
 [Home Page](https://finnarundel.github.io/codewordsRMIT/)
 
-[Next Week](https://finnarundel.github.io/codewordsRMIT/week_04/)
+[Next Week](https://finnarundel.github.io/codewordsRMIT/week_03/)
