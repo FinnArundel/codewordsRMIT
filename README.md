@@ -1,4 +1,5 @@
 [week 01](finnarundel.github.io/codewordsRMIT/week_01/)
+[week 01](week_01/)
 
 [week 02](finnarundel.github.io/codewordsRMIT/week_02/)
 
