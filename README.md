@@ -1,8 +1,6 @@
-# hi, it's coding time
+# code~words 2020
 
-code~words 2020
-
-hi Finn
+hi, it's coding time
 
 [week 01](https://github.com/FinnArundel/codewordsRMIT/tree/master/week_01)
 
