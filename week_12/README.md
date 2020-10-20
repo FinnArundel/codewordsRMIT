@@ -13,3 +13,5 @@ This studio has really changed how I think about my own future with design and e
 I hope to continue with some personal coding projects over the break, I'm interested in looking into some audio-visual stuff for live music next but also to expand on my major assignment. 
 
 Thanks Andy and Karen! Definitely my favourite class so far in the whole course, hope to do more like it in my final year (typography one sounded cool, sign me up :) ).
+
+[Home Page](https://finnarundel.github.io/codewordsRMIT/)
