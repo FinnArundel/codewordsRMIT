@@ -66,3 +66,7 @@ scale () {
 ## Camera Control
 To add another layer of interation I used [p5.EasyCam](https://github.com/freshfork/p5.EasyCam), which is a p5.js library which allows for easy camera control in a 3D enviroment.
 <img src="easycam.gif">
+
+[Home Page](https://finnarundel.github.io/codewordsRMIT/)
+
+[Next Week](https://finnarundel.github.io/codewordsRMIT/week_12/)
