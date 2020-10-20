@@ -21,3 +21,7 @@ I think this passage works well to capture what I find most interesting as well 
 After Karen showed us how to use sine waves in class, I made this after being inspired by this [video](https://www.youtube.com/watch?v=LaarVR1AOvs&list=LLYidLCp9CKTWbc-1Kaf_s_Q&index=20&t=813s). The animation works by connecting a different points of sine waves together with a line, while loading a black background each draw function with a small amount of alpha to get the fade effect. You can view it in full [here](https://finnarundel.github.io/codewordsRMIT/week_06/sine_waves/).
 
 <img src="Sine.gif">
+
+[Home Page](https://finnarundel.github.io/codewordsRMIT/)
+
+[Next Week](https://finnarundel.github.io/codewordsRMIT/week_07/)
