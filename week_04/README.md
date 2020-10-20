@@ -6,6 +6,8 @@ During the following week, inspired by the tutorials of Dan Shiffman I experimen
 
 <image src="PONG_text2.gif">
 
+
+
 [Home Page](https://finnarundel.github.io/codewordsRMIT/)
 
 [Next Week](https://finnarundel.github.io/codewordsRMIT/week_05/)
