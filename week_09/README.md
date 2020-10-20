@@ -134,3 +134,7 @@ At the end of the day I had the [sketch below](https://finnarundel.github.io/cod
 Goals for the following week is to attempt to fix this problem and start to bring this sketch into a 3D enviroment in WEBGL, as well as randomising the positions of the words more naturally with perlin noise.
 
 <img src="week_09_end.gif">
+
+[Home Page](https://finnarundel.github.io/codewordsRMIT/)
+
+[Next Week](https://finnarundel.github.io/codewordsRMIT/week_10/)
