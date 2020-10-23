@@ -4,6 +4,7 @@ Week 4 was mainly dedicated to coding, with Karen walking the class through how 
 
 During the following week, inspired by the tutorials of Dan Shiffman I experimented more with Processing eventually creating a [pong-like game](https://finnarundel.github.io/codewordsRMIT/week_04/PONG_text/) utilising typography. This was very challenging but fun for me, mainly figuring out how to rebound the the ball off of the paddle and how to tell when you miss. I've also made it so the ball gradually builds up speed making it harder. 
 
+<img src="PONG_text2.gif">
 
 [Home Page](https://finnarundel.github.io/codewordsRMIT/)
 
