@@ -6,14 +6,3 @@ This day begun with a discussion about electronic literature, including generati
 <image src ="AIDungeon.jpg">
 
 The rest of the day was dedicated to working on the first assignment with our groups. In this time my group location scouted for places to film our video much like a production studio would in real life. 
-
-
-
-[Home Page](https://finnarundel.github.io/codewordsRMIT/)
-
-[Next Week](https://finnarundel.github.io/codewordsRMIT/week_04/)
-
-
-[Home Page](https://finnarundel.github.io/codewordsRMIT/)
-
-[Next Week](https://finnarundel.github.io/codewordsRMIT/week_04/)
