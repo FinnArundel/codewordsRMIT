@@ -20,7 +20,7 @@ function setup() {
 function draw() {
   background (0);
   for ( let i = 0; i < node.length; i++) {
-    node[i].show(); // uses draw counter as arguement for class
+    node[i].show(); 
   }
 }
 
