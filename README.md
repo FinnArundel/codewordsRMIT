@@ -1,6 +1,6 @@
 <img src="homepage.gif">
 
-## Welcome to Finn's Studio Knowledge Object for codeWords 2020.
+## Welcome to Finn's SKO for codeWords 2020.
 
 SKO is seperated into weekly recaps / reflections. Click "Next Week" at the bottom of each page to move to the next entry.
 
