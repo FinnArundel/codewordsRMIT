@@ -5,6 +5,7 @@ This day begun with a discussion about electronic literature, including generati
 The rest of the day was dedicated to working on the first assignment with our groups. In this time my group location scouted for places to film our video much like a production studio would in real life. 
 
 <img src="Windsound.jpg">
+<img src="AIDungeon.jpg">
 
 [Home Page](https://finnarundel.github.io/codewordsRMIT/)
 
