@@ -1,5 +1,9 @@
 <img src="homepage.gif">
 
+## Welcome to Finn's Studio Knowledge Object for codeWords 2020.
+
+SKO is seperated into weekly recaps / reflections. Click "Next Week" at the bottom of each page to move to the next entry.
+
 [week 01 - Introductions](https://finnarundel.github.io/codewordsRMIT/week_01/)
 
 [week 02 - Modular Typography](https://finnarundel.github.io/codewordsRMIT/week_02/)
