@@ -12,3 +12,8 @@ The rest of the day was dedicated to working on the first assignment with our gr
 [Home Page](https://finnarundel.github.io/codewordsRMIT/)
 
 [Next Week](https://finnarundel.github.io/codewordsRMIT/week_04/)
+
+
+[Home Page](https://finnarundel.github.io/codewordsRMIT/)
+
+[Next Week](https://finnarundel.github.io/codewordsRMIT/week_04/)
